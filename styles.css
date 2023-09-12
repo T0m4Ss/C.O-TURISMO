@@ -8,12 +8,12 @@
 body {
   background-color: rgb(31, 151, 167);
   background-size: auto;
-  background-image: url(./img/432765.jpg);
+  background-image: url(./432765.jpg);
   background-attachment: fixed;
 }
 
 main {
-  background-color: rgba(240, 255, 255, 0.753);
+  background-color: rgba(240, 255, 255, 0.5);
   padding: 30px;
   background-size: contain;
   margin-left: 20px;
