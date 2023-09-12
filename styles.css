@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background-color: rgb(31, 151, 167);
+  background-size: auto;
+  background-image: url(./img/432765.jpg);
+  background-attachment: fixed;
+}
+
+main {
+  background-color: rgba(240, 255, 255, 0.753);
+  padding: 30px;
+  background-size: contain;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 6px;
+}
+
+.header {
+  margin-bottom: 10px;
+  background-color: rgb(231, 148, 39);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;
+}
+
+.header .logo {
+  cursor: pointer;
+}
+
+.header .logo img:hover {
+  transform: scale(1.2);
+}
+
+.header .logo img {
+  height: 70px;
+  width: auto;
+  border-radius: 100px;
+  transition: all 0.3s;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 20px;
+}
+.header .nav-links {
+  list-style: none;
+}
+.header .nav-links a {
+  font-size: 100;
+  color: rgb(34, 83, 11);
+  text-decoration: none;
+  font-family: "Signika Negative", sans-serif;
+  transition: all 0.4s;
+}
+
+.header .nav-links li:hover {
+  transform: scale(1.1);
+}
+
+.header .nav-links li a:hover {
+  color: white;
+}
+
+.header .btn button {
+  font-weight: 700;
+  color: rgb(27, 68, 8);
+  padding: 7px 15px;
+  background-color: rgb(15, 158, 224);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.header .btn button:hover {
+  background-color: white;
+  transform: scale(1.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-info {
+  padding: 10px;
+}
+
+.card h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 1em;
+  color: #555;
+}
+
+main h1{
+text-align: center;
+color: rgb(5, 94, 13);
+}
+
+
+footer h2{
+    text-align: center;
+    color: rgb(4, 54, 4);
+}
+
+
